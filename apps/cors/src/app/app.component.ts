@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Message } from '@cors-test/api-interfaces';
+import { catchError, of } from 'rxjs';
 
 @Component({
   selector: 'cors-test-root',
@@ -8,6 +9,8 @@ import { Message } from '@cors-test/api-interfaces';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  hello$ = this.http.get<Message>('/api/hello');
+  hello$ = this.http
+    .get<Message>('http://localhost:3333/api/hello')
+    .pipe(catchError((err) => of(err.message)));
   constructor(private http: HttpClient) {}
 }
