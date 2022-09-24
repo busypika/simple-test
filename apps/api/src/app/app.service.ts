@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Message } from '@cors-test/api-interfaces';
+import { Message } from '@simple-test/api-interfaces';
 
 @Injectable()
 export class AppService {

@@ -1,18 +1,18 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/cors-e2e/src",
+  "sourceRoot": "apps/simple-e2e/src",
   "projectType": "application",
   "targets": {
     "e2e": {
       "executor": "@nrwl/cypress:cypress",
       "options": {
-        "cypressConfig": "apps/cors-e2e/cypress.config.ts",
-        "devServerTarget": "cors:serve:development",
+        "cypressConfig": "apps/simple-e2e/cypress.config.ts",
+        "devServerTarget": "simple:serve:development",
         "testingType": "e2e"
       },
       "configurations": {
         "production": {
-          "devServerTarget": "cors:serve:production"
+          "devServerTarget": "simple:serve:production"
         }
       }
     },
@@ -20,10 +20,10 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["apps/cors-e2e/**/*.{js,ts}"]
+        "lintFilePatterns": ["apps/simple-e2e/**/*.{js,ts}"]
       }
     }
   },
   "tags": [],
-  "implicitDependencies": ["cors"]
+  "implicitDependencies": ["simple"]
 }
