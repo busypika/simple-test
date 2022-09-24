@@ -20,4 +20,4 @@ nx run-many --target=serve --all
 * localhost:3333 for backend api
 * Open your chrome browser on [localhost:4200](http://localhost:4200)
 * It seems like there is a bug denying all of your api calls
-* What's the problem & how are you going to solve it?
+* What's the problem?
