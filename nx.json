@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "cors-test",
+  "npmScope": "simple-test",
   "affected": {
     "defaultBase": "main"
   },
@@ -56,5 +56,5 @@
       "style": "scss"
     }
   },
-  "defaultProject": "cors"
+  "defaultProject": "simple"
 }

@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Message } from '@cors-test/api-interfaces';
+import { Message } from '@simple-test/api-interfaces';
 import { catchError, of } from 'rxjs';
 
 @Component({
-  selector: 'cors-test-root',
+  selector: 'simple-test-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })

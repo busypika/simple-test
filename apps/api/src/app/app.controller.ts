@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 
-import { Message } from '@cors-test/api-interfaces';
+import { Message } from '@simple-test/api-interfaces';
 
 import { AppService } from './app.service';
 

@@ -13,7 +13,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "corsTest",
+            "prefix": "simpleTest",
             "style": "camelCase"
           }
         ],
@@ -21,7 +21,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "cors-test",
+            "prefix": "simple-test",
             "style": "kebab-case"
           }
         ]

@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'cors',
+  displayName: 'simple',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -9,7 +9,7 @@ export default {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../coverage/apps/cors',
+  coverageDirectory: '../../coverage/apps/simple',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },

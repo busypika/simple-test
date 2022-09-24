@@ -4,7 +4,7 @@
   "projects": {
     "api": "apps/api",
     "api-interfaces": "libs/api-interfaces",
-    "cors": "apps/cors",
-    "cors-e2e": "apps/cors-e2e"
+    "simple": "apps/simple",
+    "simple-e2e": "apps/simple-e2e"
   }
 }

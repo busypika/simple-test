@@ -1,4 +1,4 @@
-# Cors Test
+# Simple Test
 
 ## Description
 
